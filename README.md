@@ -8,7 +8,7 @@ The goal is to understand differences between **casual riders** and **members** 
 
 ## 📊 Tools Used
 - **BigQuery + SQL** → Data cleaning & analysis  
-- **Google Sheets** → Data visualization (charts)  
+- **Google Sheets** → Data Cleaning & Data visualization (charts)  
 - **Google Slides** → Final presentation  
 
 ## 📂 Project Files
