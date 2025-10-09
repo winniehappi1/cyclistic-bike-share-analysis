@@ -1,36 +1,63 @@
-# cyclistic-bike-share-analysis
-This project analyzes over 1 million bike-share trips from Cyclistic (formerly Divvy) in Chicago using BigQuery and SQL. The goal is to compare casual riders and annual members, uncover usage patterns, and provide recommendations for converting casual riders into members.
-# Cyclistic Bike-Share Analysis (Q1 2019 vs Q1 2020)
+🚲 Cyclistic Bike-Share Analysis
 
-## 📌 Project Overview
-This project analyzes bike-share trip data from Cyclistic (formerly Divvy) in Chicago for Q1 2019 and Q1 2020.  
-The goal is to understand differences between **casual riders** and **members** and provide insights for converting casual riders into annual members.  
+This project analyzes over 1 million bike-share trips from Cyclistic (formerly Divvy) in Chicago using BigQuery and SQL.
+The goal is to compare casual riders and annual members, uncover usage patterns, and provide recommendations for converting casual riders into members.
 
-## 📊 Tools Used
-- **BigQuery + SQL** → Data cleaning & analysis  
-- **Google Sheets** → Data Cleaning & Data visualization (charts)  
-- **Google Slides** → Final presentation  
+📌 Project Overview
 
-## 📂 Project Files
-- `/sql` → All SQL queries (cleaning + analysis)  
-- `/notebooks` → Notebook showing queries + results  
-- `/slides` → Final presentation PDF  
-- `/data` → Source datasets (linked from Kaggle)  
+This analysis focuses on Q1 2019 vs Q1 2020 Cyclistic trip data.
+The objective is to understand behavioral differences between casual riders and members, and provide insights to support marketing strategies that increase membership conversion.
 
-## 🔎 Key Insights
-- Casual riders take **longer rides (~25 min)** than members (~12 min).  
-- Members take **more total rides**, especially during weekdays (commuting).  
-- Casual riders peak on **weekends and afternoons**, while members peak during commute hours.  
-- Trips increase into **March**, especially among casual riders.  
+🛠 Tools Used
 
-## ✅ Recommendations
-- Offer **weekend/leisure passes** to casual riders.  
-- Create promotions to **convert casual riders into members**.  
-- Optimize station placement near **leisure & tourist areas**.  
-- Market membership as **cost-saving for frequent riders**.  
+BigQuery + SQL → Data cleaning & analysis
 
-## 📈 Next Steps
-This project can be extended by analyzing:  
-- Other quarters/years  
-- Impact of weather on ride trends  
-- Station-level usage and demand forecasting  
+Google Sheets → Data cleaning & visualization (charts)
+
+Google Slides → Final presentation
+
+📂 Project Files
+
+/sql → SQL queries (cleaning + analysis)
+
+/notebooks → Kaggle notebook (queries + results)
+
+/slides → Final presentation (PDF)
+
+/data → Kaggle dataset links (not raw files)
+
+Datasets:
+
+Divvy Trips Q1 2019
+
+Divvy Trips Q1 2020
+
+🔎 Key Insights
+
+ Ride length: Casual riders average ~25 min vs members at ~12 min.
+
+ Ride frequency: Members ride more frequently, especially during weekdays (commuting).
+
+ Time of use: Casual riders peak on weekends/afternoons, members peak at commute hours.
+
+ Seasonal trends: Rides increase in March, especially among casual riders.
+
+✅ Recommendations
+
+Weekend/leisure passes for casual riders.
+
+Targeted promotions to convert casual riders into members.
+
+Station optimization near leisure & tourist areas.
+
+Market memberships as cost-saving for frequent riders.
+
+📈 Next Steps
+
+Potential extensions of this project:
+
+Analyzing other quarters/years for broader patterns.
+
+Adding weather data to study external factors affecting ridership.
+
+Performing station-level demand forecasting for resource planning.
